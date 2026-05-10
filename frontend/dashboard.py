@@ -14,7 +14,7 @@ uploaded = st.file_uploader(
 if uploaded:
 
     res = requests.post(
-        "http://localhost:8000/upload/",
+        "https://ai-support-platform-reku.onrender.com/upload",
         files={"file": uploaded}
     )
 
@@ -23,7 +23,7 @@ if uploaded:
 if st.button("Retrieve Insights"):
 
     data = requests.get(
-        "http://localhost:8000/insights/"
+        "https://ai-support-platform-reku.onrender.com/insights/"
     ).json()
 
     st.subheader("Top Issues")
@@ -57,7 +57,7 @@ if st.button("Retrieve Insights"):
 if st.button("Reset Database"):
 
     response = requests.delete(
-        "http://localhost:8000/reset/"
+        "https://ai-support-platform-reku.onrender.com/reset/"
     )
 
     if response.status_code == 200:
