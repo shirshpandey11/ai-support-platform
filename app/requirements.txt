@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+pandas
+scikit-learn
+textblob
+python-multipart
+streamlit
+requests

@@ -1,0 +1,8 @@
+customer_id,message,product,order_value
+101,"My refund has not arrived","Phone",250
+102,"Delivery delayed for 5 days","Laptop",800
+103,"Received damaged headphones","Headphones",120
+104,"Payment failed during checkout","Tablet",450
+105,"Need replacement for defective product","Monitor",300
+106,"Refund still not processed","Keyboard",90
+107,"Login issue with account","Mouse",60
